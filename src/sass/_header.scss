@@ -1,0 +1,115 @@
+.header {
+    &__nav {
+        height: 56px;
+        background: #323232;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+        }
+
+        &-block {
+            display: flex;
+        }
+
+        &-link {
+            display: flex;
+            justify-content: center;
+            border-right:1px solid $gray;
+            padding:0 15px;
+            color:#fff;
+            text-decoration: none;
+            &:hover{
+                color:#fff;
+            }
+            &:first-child{
+                padding-left: 0;
+            }
+            &:last-child{
+                border:none;
+            }
+        }
+
+        &-btn{
+            width: 153px;
+            height: 38px;
+            background:#e8d8b6;
+            text-transform: uppercase;
+            font-size: 12px;
+            color:#323232;
+            transition: all .2s;
+            border:none;
+            cursor: pointer;
+            &:hover{
+                background:#e4d1a8;
+                color:#000;
+            }
+        }
+    }
+
+
+    &__content{
+        height: 93px;
+        padding-top: 15px;
+
+        &-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &-block{
+            display: flex;
+        }
+
+        &-logo{
+            width: 170px;
+            height: 65px;
+            margin-right: 44px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &-link{
+            display: flex;
+            align-items: center;
+            gap:12px;
+        }
+
+        &-text{
+            margin-right: 33px;
+            text-transform: uppercase;
+            font-size: 15px;
+            color:#323232;
+        }
+
+        &-icon{
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            border:1px solid #000;
+            width: 37px;
+            height: 37px;
+        }
+
+        &-btn{
+            width: 153px;
+            height: 38px;
+            background:#c99c47;
+            text-transform: uppercase;
+            font-size: 13px;
+            color:#fff;
+            border:none;
+            cursor: pointer;
+            transition: all .2s;
+            &:hover{
+                background:#be9240;
+            }
+        }
+    }
+}
