@@ -122,17 +122,17 @@
 // Media
 
 @media (max-width:1200px){
+
+    .container{
+        padding: 0 5px;
+    }
+
     .header{
         .container{
             margin: 0;
             width: 100%;
         }
-        &__nav{
-            padding: 0 20px;
-        }
         &__content{
-            // padding: 10px 20px 0 20px;
-            padding: 0 20px;
             display: flex;
             align-items: center;
             &-logo{
