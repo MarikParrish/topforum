@@ -1,0 +1,64 @@
+.wealth{
+    position: relative;
+    width: 100%;
+    min-height: 440px;
+    background:url('../../../../img/index/background.jpg') center center/cover no-repeat;
+
+    &__border{
+        
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 22%;
+        border:1px solid #fff;
+        padding:10px;
+    }
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap:20px;
+        justify-content: center;
+        align-items: center;
+        max-width: 460px;
+        color:#000;
+        background:rgba(236, 234, 233, 0.753);
+        padding: 20px;
+    }
+
+    &__block{
+        &:first-child{
+            display: flex;
+            flex-direction: column;
+            border:1px solid $main-color;
+            background:#fff;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__date{
+        color:#a37e3a;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    &__month{
+        font-size: 18px;
+    }
+
+    &__title{
+        color:#a37e3a;
+        font-weight:700;
+        text-transform: uppercase;
+    }
+    &__text{
+        margin-top: 8px;
+        font-size: 15px;
+    }
+    &__descr{
+        color:#757575;
+        margin-top: 8px;
+    }
+}
