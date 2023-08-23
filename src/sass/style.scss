@@ -103,11 +103,60 @@ select {
     margin: 0 auto;
 }
 
+.title{
+  color:$black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
 
 @import 'header.scss';
 @import 'footer.scss';
-@import 'pages/index/wealth/wealth.scss';
-@import 'pages/index/register/register.scss';
+@import 'pages/index/wealth/wealth';
+@import 'pages/index/register/register';
+@import 'pages/index/reviews/reviews';
+@import 'pages/index/video/video';
+@import 'pages/index/clients/clients';
 
-@import 'pages/index/wealth/wealth-media.scss';
-@import 'pages/index/register/register-media.scss';
+@import 'pages/index/wealth/wealth-media';
+@import 'pages/index/register/register-media';
+@import 'pages/index/reviews/reviews-media';
+@import 'pages/index/video/video-media';
+@import 'pages/index/clients/clients-media';
+
+
+// @media (max-width:1200px) {
+
+// }
+
+// @media (max-width:992px) {
+
+// }
+
+// @media (max-width:768px) {
+
+// }
+
+// @media (max-width:576px) {
+
+// }
+
+@media (max-width:1200px) {
+  .title{
+    font-size: 23px;
+  }
+}
+
+@media (max-width:992px) {
+  .title{
+    font-size: 22px;
+  }
+}
+
+@media (max-width:576px) {
+  .title{
+    font-size: 20px;
+  }
+}

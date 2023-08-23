@@ -1,0 +1,20 @@
+.clients{
+    background:#f8f3e9;
+    padding:44px 0 70px 0;
+    &__wrapper{
+        display: grid;
+        margin-top: 33px;
+        grid-template-columns: repeat(auto-fit,minmax(auto, 180px));
+        grid-template-rows: 123px;
+        grid-auto-rows: 123px;
+        justify-content: center;
+        align-content: center;
+        gap:12px;
+        &-block{
+            display: flex;
+            background:#fff;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
